@@ -1,0 +1,120 @@
+/* Container styling */
+.searchFormContainer {
+  background-color: rgb(64, 59, 59, 0.8);
+
+  padding: 20px;
+  margin: auto;
+  width: 75%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Row styling */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+
+  /* margin-left: 1rem; */
+}
+
+/* Search input styling */
+.searchInput {
+  flex-grow: 1;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  /* background-color: white; */
+
+}
+
+/* Button container styling */
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+
+}
+
+.buttoncontainer button {
+  margin-left: 10px;
+
+}
+
+/* Button styling */
+
+
+/* Dropdown styling */
+.dropdown {
+  margin-right: 1rem;
+  /* display: flex; */
+  z-index: 1000;
+}
+
+.padding1 {
+  padding: 0px;
+  font-size: 11px;
+}
+
+/* Additional styles for icon */
+.fa-search {
+  margin-right: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 400px) {
+  .buttoncontainer {
+
+    display: inline-block;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  /* .buttoncontainer {
+
+    display: inline-block;
+
+  } */
+  .padding1 {
+    margin-bottom: 0;
+  }
+
+  .buttoncontainer button {
+    margin-left: 10px;
+
+  }
+
+  .searchInput {
+    flex-grow: 1;
+    /* margin-right: 1rem; */
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: white; */
+
+  }
+
+
+
+  .buttoncontainer button {
+    margin-bottom: 10px;
+    padding: 7px;
+
+  }
+
+  .searchFormContainer {
+
+    width: 90%;
+
+  }
+}

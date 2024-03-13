@@ -1,0 +1,59 @@
+.contact form div {
+  display: flex;
+}
+
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+}
+
+.contact input {
+  margin-bottom: 20px;
+  /* margin-right: 10px; */
+}
+
+.contactdivinput {
+  margin-right: 10px;
+}
+
+.contact form {
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contactdiv {
+    width: 100%
+  }
+
+  .contact form div {
+    flex-direction: column;
+  }
+
+  .contact input {
+    width: 100%;
+  }
+
+}
+
+.common__section {
+  background: linear-gradient(rgba(34, 34, 47, 0.6), rgba(25, 25, 36, 0.6)),
+    url("../../../images/contact-us.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+
+}
+
+.customStyles {
+  color: white;
+  margin-top: 10px;
+}

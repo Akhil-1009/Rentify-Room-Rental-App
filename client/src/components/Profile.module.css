@@ -1,0 +1,43 @@
+.topImage {
+  background-image: url("../images/profilebg.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+/* ProfilePage.css */
+
+.profilecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px; */
+  margin-top: -17vh;
+  /* margin-left: 10vw; */
+  flex-direction: column;
+}
+
+.profileinfo {
+  text-align: center;
+  /* margin-left: 15px; */
+  margin-top: 10px;
+}
+
+.profileimagecontainer {
+  /* margin-top: 20px; */
+  /* Adjust the margin as needed */
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profileimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

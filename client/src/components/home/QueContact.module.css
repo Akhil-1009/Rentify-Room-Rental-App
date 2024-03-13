@@ -1,0 +1,45 @@
+.footerContact {
+  background-color: #27ae60;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  padding: 30px;
+}
+
+.btn8 {
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: #27ae60;
+  font-size: 20px;
+  font-weight: 400;
+  border: 5px solid #27ae601f;
+  background: #fff;
+  text-decoration: 'none';
+}
+
+@media (max-width:600px) {
+  .flex {
+    display: block;
+
+  }
+
+  .btn8 {
+    margin-left: 60px;
+  }
+
+
+
+
+}
